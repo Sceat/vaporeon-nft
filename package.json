@@ -8,7 +8,8 @@
     "policy": "node -r dotenv/config ./scripts/create_policies.js",
     "del": "node -r dotenv/config ./scripts/del_obj.js",
     "burn_upgrade_cap": "node -r dotenv/config ./scripts/burn_upgrade_cap.js",
-    "send": "node -r dotenv/config ./scripts/send_to.js"
+    "send": "node -r dotenv/config ./scripts/send_to.js",
+    "snapshot": "node -r dotenv/config ./scripts/snapshot.js"
   },
   "keywords": [],
   "author": "",

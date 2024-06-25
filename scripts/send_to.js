@@ -3,8 +3,8 @@ import { Transaction } from '@mysten/sui/transactions'
 
 const tx = new Transaction()
 
-const AMOUNT = 1
-const RECIPIENT = '0xb1329007ab91c20209db03bf4126bb7b002b7de4fca20b576ac3ad48b5e88224'
+const AMOUNT = 3
+const RECIPIENT = '0x8a6c8b22d46c113e2bc2f9d425ea68a281f9d9c43692da2f3c15c64e4ae3d6d6'
 
 console.log('==================== [ Deleting objects ] ====================')
 console.log('public key:', keypair.getPublicKey().toSuiAddress())
