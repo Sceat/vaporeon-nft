@@ -7,7 +7,7 @@ console.log('==================== [ Burning upgrade cap ] ====================')
 console.log('public key:', keypair.getPublicKey().toSuiAddress())
 console.log(' ')
 
-tx.transferObjects(['0x77ae7604d0b482f5e96af012bbd98e50946bc574ceaf107bd6b7d47679c907b4'], '0x0')
+tx.transferObjects(['0x4da78c88067f9e7737d6c7e47fe5e0114a4d32cd3dea83701089c62f664bbe01'], '0x0')
 
 const result = await client.signAndExecuteTransaction({
   signer: keypair,
@@ -19,3 +19,6 @@ const result = await client.signAndExecuteTransaction({
 
 console.log('digest:', result.digest)
 console.log('==================== [ x ] ====================')
+
+
+// BURNED: AQge8LtEeXrQ4saVkx2ZTLcg5D6HsTmtkXyeySxxenfL

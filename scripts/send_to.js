@@ -15,7 +15,7 @@ const { data } = await client.getOwnedObjects({
   limit: AMOUNT,
   filter: {
     StructType:
-      '0xe3a1731e77249efa892e3a050c96f0de1be9bb5ef3c855a50766077be2d8411c::vaporeon::VaporeonKey',
+      '0x270f7a64af25345c30b2f52c59b34a7d3b71c71714b4371b494cc525a3500d8b::vaporeon::VaporeonKey',
   },
 })
 

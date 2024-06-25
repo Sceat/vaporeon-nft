@@ -10,8 +10,8 @@ console.log(' ')
 
 const [, cli_result] = execSync(
   `
-  sui client switch --env testnet && \
-  sui move build --dev --dump-bytecode-as-base64 --path ./`,
+  sui client switch --env mainnet && \
+  sui move build --dump-bytecode-as-base64 --path ./`,
   {
     encoding: 'utf-8',
   }

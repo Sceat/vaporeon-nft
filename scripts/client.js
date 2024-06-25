@@ -7,11 +7,11 @@ const { PRIVATE_KEY = '' } = process.env
 
 const keypair = Ed25519Keypair.fromSecretKey(decodeSuiPrivateKey(PRIVATE_KEY).secretKey)
 const client = new SuiClient({
-  url: getFullnodeUrl('testnet'),
+  url: getFullnodeUrl('mainnet'),
 })
 const kiosk_client = new KioskClient({
   client,
-  network: Network.TESTNET,
+  network: Network.MAINNET,
 })
 
 export { keypair, client, kiosk_client }

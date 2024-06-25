@@ -1,7 +1,7 @@
 [package]
 name = "vaporeon-nft"
 version = "0.1.0"
-published-at = "0xe3a1731e77249efa892e3a050c96f0de1be9bb5ef3c855a50766077be2d8411c"
+published-at = "0x270f7a64af25345c30b2f52c59b34a7d3b71c71714b4371b494cc525a3500d8b"
 edition = "2024.beta"
 
 authors = ["Sceat (fetch@sceat.xyz)"]
@@ -13,5 +13,5 @@ rev = "framework/mainnet"
 override = true
 
 [addresses]
-vaporeon = "0xe3a1731e77249efa892e3a050c96f0de1be9bb5ef3c855a50766077be2d8411c"
+vaporeon = "0x270f7a64af25345c30b2f52c59b34a7d3b71c71714b4371b494cc525a3500d8b"
 treasury = "0x37cf46b499f740e653644bd2f7a8ed97f248e8b3c69d5d12c97d7845a54c0cd8"
